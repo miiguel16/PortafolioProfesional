@@ -1,4 +1,3 @@
-
 import { ItemNav } from "../../components/ItemNav";
 
 export const Navbar = ( ) => {
@@ -11,7 +10,6 @@ export const Navbar = ( ) => {
                     myStyle='pr-6 text-zinc-50'
                     contentItem="Home"
                     routes="/"
-
                 />
                 <ItemNav
                     linksNav="clase 1"
@@ -23,19 +21,19 @@ export const Navbar = ( ) => {
                     linksNav="clase 2"
                     myStyle='pr-4 text-zinc-50'
                     contentItem="Habilidades Sociales"
+                    routes="/SocialSkills"
+                />
+                <ItemNav
+                    linksNav="clase 3"
+                    myStyle='pr-4 text-zinc-50'
+                    contentItem="Experiencia Profesional"
                     routes="/TechnicalSkills"
                 />
                 <ItemNav
                     linksNav="clase 3"
                     myStyle='pr-4 text-zinc-50'
-                    contentItem="Experiencia Profesional"
-                    routes="/StudiesHome"
-                />
-                <ItemNav
-                    linksNav="clase 3"
-                    myStyle='pr-4 text-zinc-50'
-                    contentItem="Experiencia Profesional"
-                    routes="Estudios"
+                    contentItem="Estudios"
+                    routes="/Studies"
                 />
             </ul>
         </nav>

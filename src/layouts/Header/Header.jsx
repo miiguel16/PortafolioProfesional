@@ -5,7 +5,7 @@ export const Header = () =>{
     return(
       <>
         <header className=" bg-slate-800 w-full h-23  flex flex-row flex-wrap justify-around items-center p-4 ">
-          <h1 className="text-sky-600 font-extrabold text-2xl">Introduccion al curso</h1>
+          <h1 className="text-sky-600 font-extrabold text-2xl">Portafolio profesional</h1>
           <Navbar />
         </header>
       </>

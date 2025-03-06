@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 
-export const ItemNav = ({contentItem ='item' ,myStyle,linksNav,routes}) => {
+export const ItemNav = ({contentItem ='item' ,myStyle,routes}) => {
     return (
         <>
             <li className = {myStyle}>

@@ -15,11 +15,11 @@ export const App = () => {
       <Header/>
     <Routes> 
       <Route path="/" content={<Home />}/>
-      <Route path="/SocialSkills" content ={< SocialSkills />} />
-      <Route path="/ProfessionalExperience" content ={< ProfessionalExperience />} />
-      <Route path="/TechnicalSkills" content ={< TechnicalSkills />} />
-      <Route path="/Studies" content ={<Studies />} />
-      <Route path="*" element={<NotFound />}/>
+      <Route path="/SocialSkills" element ={< SocialSkills />} />
+      <Route path="/ProfessionalExperience" element ={< ProfessionalExperience />} />
+      <Route path="/TechnicalSkills" element ={< TechnicalSkills />} />
+      <Route path="/Studies" element ={<Studies />} />
+      {/* <Route path="*" element={<NotFound />}/> */}
     </Routes>
     <Footer/>
     
