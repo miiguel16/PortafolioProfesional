@@ -1,4 +1,4 @@
-import { ItemNav } from "../../components/ItemNav";
+import { ItemNav } from "../../Components/ItemNav";
 
 export const Navbar = ( ) => {
     return (
@@ -15,7 +15,7 @@ export const Navbar = ( ) => {
                     linksNav="clase 1"
                     myStyle='pr-4 text-zinc-50'
                     contentItem="Habilidades tecnicas"
-                    routes="/ProfessionalSkills"
+                    routes="/TechnicalSkills"
                 />
                 <ItemNav
                     linksNav="clase 2"
@@ -27,7 +27,7 @@ export const Navbar = ( ) => {
                     linksNav="clase 3"
                     myStyle='pr-4 text-zinc-50'
                     contentItem="Experiencia Profesional"
-                    routes="/TechnicalSkills"
+                    routes="/ProfessionalExperience"
                 />
                 <ItemNav
                     linksNav="clase 3"
