@@ -4,8 +4,8 @@ export const Main =()=>{
     return(
         <>
             <main className="size-full flex flex-col items-center justify-center" >
-                <h2 className="text-amber-300 font-semibold text-4xl pb-5">Acá pondremos todo lo que iremos haciendo en el main</h2>
-                <img className="h-170 " src={Photo1} alt="imagen 1"/>
+                <h5 className="text-lg text-white font-semibold pb-5">Hola, mi nombre es Miguel Ángel Chilito Herrera, actualmente estudio en el Sena Analisis y desarrollo de software (ASDO)</h5>
+                <img className="w-full max-w-xl h-auto object-cover" src={Photo1} alt="imagen 1"/>
             </main>
         </>
     )
