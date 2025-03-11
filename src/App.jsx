@@ -22,6 +22,7 @@ export const App = () => {
           <Route path="/ProfessionalExperience" element={<ProfessionalExperience />} />
           <Route path="/TechnicalSkills" element={<TechnicalSkills />} />
           <Route path="/Studies" element={<Studies />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
       <Footer />

@@ -7,7 +7,7 @@ import Github from "../../assets/images/Github.jpg";
 
 export function TechnicalSkills() {
   return (
-    <main  className="h-dvh">
+    <main  className="min-h-screen flex-1 p-4">
 
       {/* <main  className="flex-1 p-4"> */}
 
