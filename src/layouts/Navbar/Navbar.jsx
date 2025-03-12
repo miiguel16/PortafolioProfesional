@@ -8,7 +8,7 @@ export const Navbar = ( ) => {
                 <ItemNav
                     
                     myStyle='pr-6 text-zinc-50'
-                    contentItem="Home"
+                    contentItem="Inicio"
                     routes="/"
                 />
                 <ItemNav

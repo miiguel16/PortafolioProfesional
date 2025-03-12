@@ -1,5 +1,4 @@
 import React from 'react'
-import { CardInfo } from '../../Ul/CardInfo/CardInfo'
 import Photo1 from "../../assets/images/Photo1.jpg";
 
 export function SocialSkills() {
