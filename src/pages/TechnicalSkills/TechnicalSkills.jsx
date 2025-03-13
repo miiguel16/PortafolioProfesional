@@ -4,7 +4,7 @@ import Lenguajes from "../../assets/images/Lenguajes.png";
 import Reeact from "../../assets/images/Reeact.png";
 import Tailwind from "../../assets/images/Tailwind.png";
 import Java from "../../assets/images/Java.png";
-import Github from "../../assets/images/GitHub.jpg"
+import Github from "../../assets/images/Github.jpg"
 
 
 
