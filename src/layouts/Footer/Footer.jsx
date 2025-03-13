@@ -1,5 +1,9 @@
 import { ItemNav } from "../../components/ItemNav/ItemNav";
-import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFacebook,
+         FaGithub, 
+         FaLinkedin,
+         FaWhatsapp
+} from "react-icons/fa";
 
 export const Footer = () => {
   return (
@@ -13,9 +17,9 @@ export const Footer = () => {
       />
 
       <ItemNav
-        contentItem={<FaInstagram className="text-white hover:text-pink-500 transition duration-300" />}
+        contentItem={<FaWhatsapp className="text-white hover:text-green-500 transition duration-300" />}
         myStyle={"list-none pr-4"}
-        routes={"https://www.instagram.com/herreraaa.16?fbclid=IwY2xjawI8wphleHRuA2FlbQIxMAABHe096IVc040Lw9S888BdiavcR1Qw_MSwQ-OovOz9tDycs6qiZLAfETj_og_aem_VGLegcTDEs6suRZBo-bcTw"}
+        routes={"https://wa.me/573164983010"}
       />
 
       <ItemNav

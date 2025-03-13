@@ -34,7 +34,7 @@ export const Navbar = () => {
             )}
 
             <ul className="hidden sm:flex space-x-8 font-extralight">
-                <ItemNav routes={'/'} contentItem= 'Home ' />
+                <ItemNav routes={'/'} contentItem= 'Home '/>
                 <ItemNav routes={'/TechnicalSkills'} contentItem='Habilidades Técnicas ' />
                 <ItemNav routes={'/SocialSkills'} contentItem='Habilidades Sociales ' />
                 <ItemNav routes={'/ProfessionalExperience'} contentItem='Experiencia Profesional ' />
