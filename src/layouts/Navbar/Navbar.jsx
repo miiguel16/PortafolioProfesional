@@ -1,43 +1,46 @@
-import { ItemNav } from "../../components/ItemNav"
+import { ItemNav } from "../../components/ItemNav/ItemNav"
+import React, { useEffect, useState } from 'react';
 
-export const Navbar = ( ) => {
+export const Navbar = () => {
+
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggMenu = () => {
+        setIsOpen(!isOpen);
+    };
+
+    useEffect(() => {
+        setIsOpen(false);
+    }, [location]);
+
+
     return (
-        <>
         <nav>
-            <ul className="flex flex-row flex-wrap ">
-                <ItemNav
-                    
-                    myStyle='pr-6 text-zinc-50'
-                    contentItem="Inicio"
-                    routes="/"
-                />
-                <ItemNav
-                    
-                    myStyle='pr-4 text-zinc-50'
-                    contentItem="Habilidades tecnicas"
-                    routes="/TechnicalSkills"
-                />
-                <ItemNav
-                    
-                    myStyle='pr-4 text-zinc-50'
-                    contentItem="Habilidades Sociales"
-                    routes="/SocialSkills"
-                />
-                <ItemNav
-                    
-                    myStyle='pr-4 text-zinc-50'
-                    contentItem="Experiencia Profesional"
-                    routes="/ProfessionalExperience"
-                />
-                <ItemNav
-                    
-                    myStyle='pr-4 text-zinc-50'
-                    contentItem="Estudios"
-                    routes="/Studies"
-                />
+            <button
+                onClick={toggMenu}
+                className="sm:hidden bg-blue-600 text-black py-2 px-4 rounded-full hover:bg-blue-500 transition duration-300 ease-in-out"
+            >
+                {isOpen ? 'Cerrar' : 'Menú'}
+            </button>
+
+            {isOpen && (
+                <ul className="sm:hidden absolute top-16 left-0 right-0 bg-gray-800 py-4 px-6 rounded-b-lg shadow-lg flex flex-col space-y-4 mt-2">
+                    <ItemNav routes={'/'} contentItem='Inicio' />
+                    <ItemNav routes={'/TechnicalSkills'} contentItem='Habilidades Técnicas' />
+                    <ItemNav routes={'/SocialSkills'} contentItem='Habilidades Sociales ' />
+                    <ItemNav routes={'/ProfessionalExperience'} contentItem='Experiencia Profesional ' />
+                    <ItemNav routes={'/Studies'} contentItem='Estudios ' />
+                </ul>
+            )}
+
+            <ul className="hidden sm:flex space-x-8 font-extralight">
+                <ItemNav routes={'/'} contentItem= 'Home ' />
+                <ItemNav routes={'/TechnicalSkills'} contentItem='Habilidades Técnicas ' />
+                <ItemNav routes={'/SocialSkills'} contentItem='Habilidades Sociales ' />
+                <ItemNav routes={'/ProfessionalExperience'} contentItem='Experiencia Profesional ' />
+                <ItemNav routes={'/Studies'} contentItem='Estudios ' />
             </ul>
         </nav>
-        </>
     )
 }
 

@@ -11,11 +11,8 @@ import { Footer } from "./layouts/Footer/Footer";
 export const App = () => {
   return (
     <>
-
-{/* <div className="min-h-screen flex flex-col"> */}
       <Header />
-
-      <main className="flex-1">
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/SocialSkills" element={<SocialSkills />} />
@@ -24,7 +21,7 @@ export const App = () => {
           <Route path="/Studies" element={<Studies />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-      </main>
+
       <Footer />
     </>
   );
