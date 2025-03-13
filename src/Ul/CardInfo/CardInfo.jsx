@@ -8,9 +8,9 @@ export const CardInfo = ({ title, images, content }) => {
         <h2 className="font-semibold text-xl text-white truncate">{title}</h2>
       </div>
 
-      <div className="flex justify-center">
+      <div className="grid grid-cols-2 gap-4 ">
         {images && images.map((img, index) => (
-          <img key={index} src={img} alt={`Imagen ${index + 1}`} className="w-70 h-75 rounded-lg" />
+          <img key={index} src={img} alt={`Imagen ${index + 1}`} className="w-full h-auto rounded-lg object-cover" />
         ))}
       </div>
 

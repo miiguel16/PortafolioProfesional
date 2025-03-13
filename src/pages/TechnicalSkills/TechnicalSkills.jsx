@@ -1,7 +1,10 @@
 import React from 'react'
 import { CardInfo } from '../../Ul/CardInfo/CardInfo'
-import Photo1 from "../../assets/images/Photo1.jpg";
-import Github from "../../assets/images/Github.jpg";
+import Lenguajes from "../../assets/images/Lenguajes.png";
+import Reeact from "../../assets/images/Reeact.png";
+import Tailwind from "../../assets/images/Tailwind.png";
+import Java from "../../assets/images/Java.png";
+import Github from "../../assets/images/GitHub.jpg"
 
 
 
@@ -17,7 +20,7 @@ export function TechnicalSkills() {
                   <p>CSS y Tailwind: Diseño adaptativo y responsive usando Flexbox, Grid y estilos utilitarios.</p>
                   <p>JavaScript: Manejo de eventos, manipulación del DOM junto a sincronía, asincronía y promesas.</p>
                   <p>React: Creación de componentes reutilizables, manejo de estado y consumo de APIs.</p>`}
-          images={[Photo1]}
+          images={[Reeact,Lenguajes,Tailwind,Java]}
         />
         <CardInfo
           title="Control de Versiones"
@@ -30,12 +33,12 @@ export function TechnicalSkills() {
           content={`<p>Lógica de Programación: Aplicación de estructuras de datos, algoritmos y buenas prácticas para la resolución eficiente de problemas.</p>
                   <p>Pensamiento Computacional: Desarrollo de habilidades analíticas para descomponer problemas complejos en soluciones programables.</p>
                   <p>Trabajo en equipo y colaboración: Participación activa en proyectos grupales.</p>`}
-          images={[Photo1]}
+          images={[Reeact]}
         />
         <CardInfo
           title="Desarrollo Web"
           content="<p>Aplicaciones del lado del cliente.</p>"
-          images={[Photo1]}
+          images={[Reeact]}
         />
       </div>
 

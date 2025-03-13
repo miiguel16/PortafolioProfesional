@@ -3,7 +3,7 @@ import Photo1 from "../../assets/images/Photo1.jpg";
 export const Main = () => {
     return (
         <>
-            <main className="size-full flex flex-col md:flex-row items-center justify-center p-6">
+            <main className=" flex flex-col md:flex-row items-center justify-center p-6">
                 {/* Imagen a la izquierda */}
                 <div className="md:w-1/3 flex justify-center">
                     <img
