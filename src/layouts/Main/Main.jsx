@@ -24,6 +24,10 @@ export const Main = () => {
                     <p className="mt-4">
                         Mi objetivo es especializarme tanto en el desarrollo back-end como en el front-end , poder llegar a ser uno de los mejores "full stack" y formar parte de un entorno laboral que me permita seguir aprendiendo y contribuir a proyectos significativos.
                     </p>
+
+
+
+                    
                 </div>
             </main>
 
