@@ -5,7 +5,11 @@ import Reeact from "../../assets/images/Reeact.png";
 import Tailwind from "../../assets/images/Tailwind.png";
 import Java from "../../assets/images/Java.png";
 import Github from "../../assets/images/Github.jpg"
-
+import Git from "../../assets/images/Git.png"
+import Education from "../../assets/images/Education.jpg"
+import Education2 from "../../assets/images/Education2.jpg"
+import Web from "../../assets/images/Web.jpg"
+import Web2 from "../../assets/images/Web2.jpg"
 
 
 export function TechnicalSkills() {
@@ -26,19 +30,19 @@ export function TechnicalSkills() {
           title="Control de Versiones"
           content={`<p>Git: Control de cambios y gestión de ramas.</p>
                   <p>GitHub: Repositorios, pull requests y despliegue con GitHub Pages.</p>`}
-          images={[Github]}
+          images={[Github, Git]}
         />
         <CardInfo
           title="Educación y Liderazgo"
           content={`<p>Lógica de Programación: Aplicación de estructuras de datos, algoritmos y buenas prácticas para la resolución eficiente de problemas.</p>
                   <p>Pensamiento Computacional: Desarrollo de habilidades analíticas para descomponer problemas complejos en soluciones programables.</p>
                   <p>Trabajo en equipo y colaboración: Participación activa en proyectos grupales.</p>`}
-          images={[Reeact]}
+          images={[Education2, Education]}
         />
         <CardInfo
           title="Desarrollo Web"
-          content="<p>Aplicaciones del lado del cliente.</p>"
-          images={[Reeact]}
+          content="<p>En el desarrollo web del lado del cliente, me enfoco en crear interfaces interactivas y atractivas con tecnologías como HTML, CSS, JavaScript y React. Uso Tailwind CSS para diseñar estilos de forma rápida y eficiente.</p>"
+          images={[Web,Web2]}
         />
       </div>
 
