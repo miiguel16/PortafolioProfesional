@@ -28,8 +28,8 @@ export function Studies() {
               images={[Sena1]}
             />
             <CardInfo
-              title="Desarrollo Web"
-              content="<p>En el desarrollo web del lado del cliente, me enfoco en crear interfaces interactivas y atractivas con tecnologías como HTML, CSS, JavaScript y React. Uso Tailwind CSS para diseñar estilos de forma rápida y eficiente.</p>"
+              title="Tecnologo en Analisis y Desarrollo de software"
+              content="<p>En la actualidad me encuentro estudiando en 5to trimestre ADSO con mucha emocion y entusiamo, de la misma manera en como comencé, me alegra saber que así terminaré mi carrera.</p>"
               images={[Sena2]}
             />
           </div>
