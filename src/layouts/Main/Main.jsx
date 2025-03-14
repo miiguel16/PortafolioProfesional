@@ -3,7 +3,7 @@ import Photo1 from "../../assets/images/Photo1.jpg";
 export const Main = () => {
     return (
         <>
-            <main className=" flex flex-col md:flex-row items-center justify-center p-6">
+            <main className="flex flex-col md:flex-row items-center justify-center p-6">
                 {/* Imagen a la izquierda */}
                 <div className="md:w-1/3 flex justify-center">
                     <img
@@ -23,6 +23,9 @@ export const Main = () => {
                     </p>
                     <p className="mt-4">
                         Mi objetivo es especializarme tanto en el desarrollo back-end como en el front-end , poder llegar a ser uno de los mejores "full stack" y formar parte de un entorno laboral que me permita seguir aprendiendo y contribuir a proyectos significativos.
+                    </p>
+                    <p className="mt-4">
+                        Actualmente, cuento con un nivel de ingles A-2 pero, aun estoy estudiando y tratando de superarme cada vez para poder aprender, comprender y hablar fluidamente el idioma
                     </p>
 
 
